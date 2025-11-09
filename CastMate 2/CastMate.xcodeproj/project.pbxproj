@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1ADD7D2EBE64A500EB6E30 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD7C2EBE64A500EB6E30 /* SignUpView.swift */; };
+		9A1ADD7F2EBE64E400EB6E30 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD7E2EBE64E400EB6E30 /* CustomBackButton.swift */; };
+		9A1ADD812EBE656800EB6E30 /* SignUpTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD802EBE656800EB6E30 /* SignUpTextFieldStyle.swift */; };
+		9A1ADD832EBE658600EB6E30 /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD822EBE658600EB6E30 /* RoleSelectionView.swift */; };
+		9A1ADD852EBE65CE00EB6E30 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD842EBE65CE00EB6E30 /* ImagePicker.swift */; };
+		9A1ADD872EBE65E200EB6E30 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD862EBE65E200EB6E30 /* DocumentPicker.swift */; };
+		9A1ADD892EBE665200EB6E30 /* AgencyStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD882EBE665200EB6E30 /* AgencyStep1View.swift */; };
+		9A1ADD8B2EBE66CF00EB6E30 /* AgencyStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD8A2EBE66CF00EB6E30 /* AgencyStep2View.swift */; };
+		9A1ADD8D2EBE66E400EB6E30 /* ActorStep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD8C2EBE66E400EB6E30 /* ActorStep1View.swift */; };
+		9A1ADD8F2EBE66F700EB6E30 /* ActorStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD8E2EBE66F700EB6E30 /* ActorStep2View.swift */; };
+		9A1ADD912EBE670600EB6E30 /* ActroStep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD902EBE670600EB6E30 /* ActroStep3View.swift */; };
+		9A1ADD932EBE694200EB6E30 /* WrapChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD922EBE694200EB6E30 /* WrapChipsView.swift */; };
+		9A1ADD952EBE69CC00EB6E30 /* WrapPickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD942EBE69CC00EB6E30 /* WrapPickersView.swift */; };
+		9A1ADD972EBE6A2400EB6E30 /* WrapRemovableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1ADD962EBE6A2400EB6E30 /* WrapRemovableView.swift */; };
+		9A3653B52EB8E2720090BA69 /* CastMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653B42EB8E2720090BA69 /* CastMateApp.swift */; };
+		9A3653B72EB8E2720090BA69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653B62EB8E2720090BA69 /* ContentView.swift */; };
+		9A3653B92EB8E2740090BA69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3653B82EB8E2740090BA69 /* Assets.xcassets */; };
+		9A3653BC2EB8E2740090BA69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3653BB2EB8E2740090BA69 /* Preview Assets.xcassets */; };
+		9A3653BE2EB8E2740090BA69 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653BD2EB8E2740090BA69 /* Persistence.swift */; };
+		9A3653C12EB8E2740090BA69 /* CastMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653BF2EB8E2740090BA69 /* CastMate.xcdatamodeld */; };
+		9A3653C82EB8F4670090BA69 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653C72EB8F4670090BA69 /* WelcomeView.swift */; };
+		9A3653CA2EB8F4D90090BA69 /* GradientHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653C92EB8F4D90090BA69 /* GradientHeaderView.swift */; };
+		9A3653CC2EB8F5380090BA69 /* PilleTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653CB2EB8F5380090BA69 /* PilleTextFieldView.swift */; };
+		9A3653CE2EB8F63B0090BA69 /* DesignSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653CD2EB8F63B0090BA69 /* DesignSystemView.swift */; };
+		9A3653D02EB8F6890090BA69 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653CF2EB8F6890090BA69 /* SignInView.swift */; };
+		9A3653D22EB8F7180090BA69 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653D12EB8F7180090BA69 /* ProjectCardView.swift */; };
+		9A3653D42EB8F7490090BA69 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3653D32EB8F7490090BA69 /* ChatView.swift */; };
+		9A9C387D2EBD1BC000667051 /* SignUpModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C387C2EBD1BC000667051 /* SignUpModels.swift */; };
+		9A9C387F2EBD1E3600667051 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C387E2EBD1E3600667051 /* ForgotPasswordView.swift */; };
+		9A9C38852EBD28D400667051 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9A9C38842EBD28D400667051 /* GoogleSignIn */; };
+		9A9C38872EBD28D400667051 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9A9C38862EBD28D400667051 /* GoogleSignInSwift */; };
+		9A9C38892EBD318F00667051 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C38882EBD318F00667051 /* UIApplication+Extensions.swift */; };
+		9AD4F5F52EC30C3B00A5A2F9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4F5F42EC30C3B00A5A2F9 /* APIClient.swift */; };
+		9AD4F5F72EC30C7400A5A2F9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4F5F62EC30C7400A5A2F9 /* AuthService.swift */; };
+		9AD4F60B2EC32F1000A5A2F9 /* ActorHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4F60A2EC32F1000A5A2F9 /* ActorHomeView.swift */; };
+		9AF645C92EC11F5E00933DBC /* SplashWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF645C82EC11F5E00933DBC /* SplashWelcomeView.swift */; };
+		9AF645CC2EC1301E00933DBC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF645CB2EC1301E00933DBC /* ProfileView.swift */; };
+		9AF645CE2EC1349900933DBC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF645CD2EC1349900933DBC /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A1ADD7C2EBE64A500EB6E30 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9A1ADD7E2EBE64E400EB6E30 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		9A1ADD802EBE656800EB6E30 /* SignUpTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextFieldStyle.swift; sourceTree = "<group>"; };
+		9A1ADD822EBE658600EB6E30 /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
+		9A1ADD842EBE65CE00EB6E30 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9A1ADD862EBE65E200EB6E30 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		9A1ADD882EBE665200EB6E30 /* AgencyStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyStep1View.swift; sourceTree = "<group>"; };
+		9A1ADD8A2EBE66CF00EB6E30 /* AgencyStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyStep2View.swift; sourceTree = "<group>"; };
+		9A1ADD8C2EBE66E400EB6E30 /* ActorStep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorStep1View.swift; sourceTree = "<group>"; };
+		9A1ADD8E2EBE66F700EB6E30 /* ActorStep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorStep2View.swift; sourceTree = "<group>"; };
+		9A1ADD902EBE670600EB6E30 /* ActroStep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActroStep3View.swift; sourceTree = "<group>"; };
+		9A1ADD922EBE694200EB6E30 /* WrapChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapChipsView.swift; sourceTree = "<group>"; };
+		9A1ADD942EBE69CC00EB6E30 /* WrapPickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapPickersView.swift; sourceTree = "<group>"; };
+		9A1ADD962EBE6A2400EB6E30 /* WrapRemovableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapRemovableView.swift; sourceTree = "<group>"; };
+		9A3653B12EB8E2720090BA69 /* CastMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3653B42EB8E2720090BA69 /* CastMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastMateApp.swift; sourceTree = "<group>"; };
+		9A3653B62EB8E2720090BA69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A3653B82EB8E2740090BA69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3653BB2EB8E2740090BA69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A3653BD2EB8E2740090BA69 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9A3653C02EB8E2740090BA69 /* CastMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CastMate.xcdatamodel; sourceTree = "<group>"; };
+		9A3653C72EB8F4670090BA69 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		9A3653C92EB8F4D90090BA69 /* GradientHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHeaderView.swift; sourceTree = "<group>"; };
+		9A3653CB2EB8F5380090BA69 /* PilleTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilleTextFieldView.swift; sourceTree = "<group>"; };
+		9A3653CD2EB8F63B0090BA69 /* DesignSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemView.swift; sourceTree = "<group>"; };
+		9A3653CF2EB8F6890090BA69 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9A3653D12EB8F7180090BA69 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		9A3653D32EB8F7490090BA69 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9A9C387C2EBD1BC000667051 /* SignUpModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModels.swift; sourceTree = "<group>"; };
+		9A9C387E2EBD1E3600667051 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		9A9C38882EBD318F00667051 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		9A9C388A2EBD339400667051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9AD4F5F42EC30C3B00A5A2F9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9AD4F5F62EC30C7400A5A2F9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		9AD4F60A2EC32F1000A5A2F9 /* ActorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorHomeView.swift; sourceTree = "<group>"; };
+		9AF645C82EC11F5E00933DBC /* SplashWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWelcomeView.swift; sourceTree = "<group>"; };
+		9AF645CB2EC1301E00933DBC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9AF645CD2EC1349900933DBC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3653AE2EB8E2720090BA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9C38852EBD28D400667051 /* GoogleSignIn in Frameworks */,
+				9A9C38872EBD28D400667051 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1ADD782EBE63B600EB6E30 /* SingUp */ = {
+			isa = PBXGroup;
+			children = (
+				9A1ADD7C2EBE64A500EB6E30 /* SignUpView.swift */,
+				9A1ADD792EBE645400EB6E30 /* Components */,
+				9A1ADD7B2EBE646B00EB6E30 /* Agency */,
+				9A1ADD7A2EBE646200EB6E30 /* Actor */,
+			);
+			path = SingUp;
+			sourceTree = "<group>";
+		};
+		9A1ADD792EBE645400EB6E30 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9A1ADD7E2EBE64E400EB6E30 /* CustomBackButton.swift */,
+				9A1ADD802EBE656800EB6E30 /* SignUpTextFieldStyle.swift */,
+				9A1ADD822EBE658600EB6E30 /* RoleSelectionView.swift */,
+				9A1ADD842EBE65CE00EB6E30 /* ImagePicker.swift */,
+				9A1ADD862EBE65E200EB6E30 /* DocumentPicker.swift */,
+				9A1ADD922EBE694200EB6E30 /* WrapChipsView.swift */,
+				9A1ADD942EBE69CC00EB6E30 /* WrapPickersView.swift */,
+				9A1ADD962EBE6A2400EB6E30 /* WrapRemovableView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9A1ADD7A2EBE646200EB6E30 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				9A1ADD8C2EBE66E400EB6E30 /* ActorStep1View.swift */,
+				9A1ADD8E2EBE66F700EB6E30 /* ActorStep2View.swift */,
+				9A1ADD902EBE670600EB6E30 /* ActroStep3View.swift */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		9A1ADD7B2EBE646B00EB6E30 /* Agency */ = {
+			isa = PBXGroup;
+			children = (
+				9A1ADD882EBE665200EB6E30 /* AgencyStep1View.swift */,
+				9A1ADD8A2EBE66CF00EB6E30 /* AgencyStep2View.swift */,
+			);
+			path = Agency;
+			sourceTree = "<group>";
+		};
+		9A1ADD982EBE6EA900EB6E30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AF645CA2EC12FFC00933DBC /* settings */,
+				9AF645C72EC11F4900933DBC /* Welcome */,
+				9AD4F60C2EC331F000A5A2F9 /* Actor */,
+				9A1ADD782EBE63B600EB6E30 /* SingUp */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A1ADD992EBE6EBE00EB6E30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A9C387C2EBD1BC000667051 /* SignUpModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A3653A82EB8E2720090BA69 = {
+			isa = PBXGroup;
+			children = (
+				9A1ADD982EBE6EA900EB6E30 /* Views */,
+				9A1ADD992EBE6EBE00EB6E30 /* Models */,
+				9A9C38882EBD318F00667051 /* UIApplication+Extensions.swift */,
+				9A9C38802EBD1EF300667051 /* Interfaces */,
+				9A3653B32EB8E2720090BA69 /* CastMate */,
+				9A3653B22EB8E2720090BA69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3653B22EB8E2720090BA69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3653B12EB8E2720090BA69 /* CastMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3653B32EB8E2720090BA69 /* CastMate */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4F5F32EC30C1800A5A2F9 /* Networking */,
+				9A9C388A2EBD339400667051 /* Info.plist */,
+				9A3653B42EB8E2720090BA69 /* CastMateApp.swift */,
+				9A3653B62EB8E2720090BA69 /* ContentView.swift */,
+				9A3653B82EB8E2740090BA69 /* Assets.xcassets */,
+				9A3653BD2EB8E2740090BA69 /* Persistence.swift */,
+				9A3653BF2EB8E2740090BA69 /* CastMate.xcdatamodeld */,
+				9A3653BA2EB8E2740090BA69 /* Preview Content */,
+				9A3653C72EB8F4670090BA69 /* WelcomeView.swift */,
+				9A3653C92EB8F4D90090BA69 /* GradientHeaderView.swift */,
+				9A3653CB2EB8F5380090BA69 /* PilleTextFieldView.swift */,
+				9A3653CD2EB8F63B0090BA69 /* DesignSystemView.swift */,
+				9A3653D12EB8F7180090BA69 /* ProjectCardView.swift */,
+				9A3653D32EB8F7490090BA69 /* ChatView.swift */,
+			);
+			path = CastMate;
+			sourceTree = "<group>";
+		};
+		9A3653BA2EB8E2740090BA69 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A3653BB2EB8E2740090BA69 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A9C38802EBD1EF300667051 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				9A9C387E2EBD1E3600667051 /* ForgotPasswordView.swift */,
+				9A3653CF2EB8F6890090BA69 /* SignInView.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		9AD4F5F32EC30C1800A5A2F9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4F5F42EC30C3B00A5A2F9 /* APIClient.swift */,
+				9AD4F5F62EC30C7400A5A2F9 /* AuthService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9AD4F60C2EC331F000A5A2F9 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4F60A2EC32F1000A5A2F9 /* ActorHomeView.swift */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		9AF645C72EC11F4900933DBC /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				9AF645C82EC11F5E00933DBC /* SplashWelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		9AF645CA2EC12FFC00933DBC /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				9AF645CB2EC1301E00933DBC /* ProfileView.swift */,
+				9AF645CD2EC1349900933DBC /* SettingsView.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3653B02EB8E2720090BA69 /* CastMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3653C42EB8E2740090BA69 /* Build configuration list for PBXNativeTarget "CastMate" */;
+			buildPhases = (
+				9A3653AD2EB8E2720090BA69 /* Sources */,
+				9A3653AE2EB8E2720090BA69 /* Frameworks */,
+				9A3653AF2EB8E2720090BA69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CastMate;
+			packageProductDependencies = (
+				9A9C38842EBD28D400667051 /* GoogleSignIn */,
+				9A9C38862EBD28D400667051 /* GoogleSignInSwift */,
+			);
+			productName = CastMate;
+			productReference = 9A3653B12EB8E2720090BA69 /* CastMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3653A92EB8E2720090BA69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9A3653B02EB8E2720090BA69 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9A3653AC2EB8E2720090BA69 /* Build configuration list for PBXProject "CastMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3653A82EB8E2720090BA69;
+			packageReferences = (
+				9A9C38832EBD28D400667051 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 9A3653B22EB8E2720090BA69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3653B02EB8E2720090BA69 /* CastMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3653AF2EB8E2720090BA69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3653BC2EB8E2740090BA69 /* Preview Assets.xcassets in Resources */,
+				9A3653B92EB8E2740090BA69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3653AD2EB8E2720090BA69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF645CC2EC1301E00933DBC /* ProfileView.swift in Sources */,
+				9A1ADD972EBE6A2400EB6E30 /* WrapRemovableView.swift in Sources */,
+				9A3653D02EB8F6890090BA69 /* SignInView.swift in Sources */,
+				9A1ADD892EBE665200EB6E30 /* AgencyStep1View.swift in Sources */,
+				9A3653C82EB8F4670090BA69 /* WelcomeView.swift in Sources */,
+				9AF645CE2EC1349900933DBC /* SettingsView.swift in Sources */,
+				9A3653D22EB8F7180090BA69 /* ProjectCardView.swift in Sources */,
+				9A3653BE2EB8E2740090BA69 /* Persistence.swift in Sources */,
+				9A1ADD952EBE69CC00EB6E30 /* WrapPickersView.swift in Sources */,
+				9A1ADD832EBE658600EB6E30 /* RoleSelectionView.swift in Sources */,
+				9A9C387D2EBD1BC000667051 /* SignUpModels.swift in Sources */,
+				9A1ADD8F2EBE66F700EB6E30 /* ActorStep2View.swift in Sources */,
+				9A9C38892EBD318F00667051 /* UIApplication+Extensions.swift in Sources */,
+				9A1ADD8D2EBE66E400EB6E30 /* ActorStep1View.swift in Sources */,
+				9A1ADD8B2EBE66CF00EB6E30 /* AgencyStep2View.swift in Sources */,
+				9A3653D42EB8F7490090BA69 /* ChatView.swift in Sources */,
+				9A3653B72EB8E2720090BA69 /* ContentView.swift in Sources */,
+				9A1ADD7F2EBE64E400EB6E30 /* CustomBackButton.swift in Sources */,
+				9A3653CE2EB8F63B0090BA69 /* DesignSystemView.swift in Sources */,
+				9A9C387F2EBD1E3600667051 /* ForgotPasswordView.swift in Sources */,
+				9AD4F5F72EC30C7400A5A2F9 /* AuthService.swift in Sources */,
+				9AF645C92EC11F5E00933DBC /* SplashWelcomeView.swift in Sources */,
+				9A3653CA2EB8F4D90090BA69 /* GradientHeaderView.swift in Sources */,
+				9A3653B52EB8E2720090BA69 /* CastMateApp.swift in Sources */,
+				9AD4F5F52EC30C3B00A5A2F9 /* APIClient.swift in Sources */,
+				9A1ADD812EBE656800EB6E30 /* SignUpTextFieldStyle.swift in Sources */,
+				9AD4F60B2EC32F1000A5A2F9 /* ActorHomeView.swift in Sources */,
+				9A1ADD7D2EBE64A500EB6E30 /* SignUpView.swift in Sources */,
+				9A1ADD932EBE694200EB6E30 /* WrapChipsView.swift in Sources */,
+				9A1ADD852EBE65CE00EB6E30 /* ImagePicker.swift in Sources */,
+				9A3653C12EB8E2740090BA69 /* CastMate.xcdatamodeld in Sources */,
+				9A1ADD872EBE65E200EB6E30 /* DocumentPicker.swift in Sources */,
+				9A1ADD912EBE670600EB6E30 /* ActroStep3View.swift in Sources */,
+				9A3653CC2EB8F5380090BA69 /* PilleTextFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A3653C22EB8E2740090BA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A3653C32EB8E2740090BA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3653C52EB8E2740090BA69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CastMate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CastMate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = esprit.CastMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3653C62EB8E2740090BA69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CastMate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CastMate/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = esprit.CastMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3653AC2EB8E2720090BA69 /* Build configuration list for PBXProject "CastMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3653C22EB8E2740090BA69 /* Debug */,
+				9A3653C32EB8E2740090BA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3653C42EB8E2740090BA69 /* Build configuration list for PBXNativeTarget "CastMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3653C52EB8E2740090BA69 /* Debug */,
+				9A3653C62EB8E2740090BA69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A9C38832EBD28D400667051 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A9C38842EBD28D400667051 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A9C38832EBD28D400667051 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		9A9C38862EBD28D400667051 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A9C38832EBD28D400667051 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		9A3653BF2EB8E2740090BA69 /* CastMate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A3653C02EB8E2740090BA69 /* CastMate.xcdatamodel */,
+			);
+			currentVersion = 9A3653C02EB8E2740090BA69 /* CastMate.xcdatamodel */;
+			path = CastMate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A3653A92EB8E2720090BA69 /* Project object */;
+}
